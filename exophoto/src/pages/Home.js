@@ -1,9 +1,5 @@
 import React from "react";
 
-
-
-
-
 const Home = () => (
     <div className="grid-cols-6 flex justify-center">
         <header className=" columns-3">

@@ -10,18 +10,18 @@ import {
          <div className="">
            <span className="">
            <nav className="">
-           <ol className="primary-nav flex flex flex-wrap gap-6">
+           <ol className="primary-nav flex flex-wrap gap-6">
+            <div className="flex justify-start">
+              Test
+            </div>
              <li className="">
                <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
              </li>
              <li>
-               <Link to="/Blog" style={{ textDecoration: 'none' }}>Blog</Link>
+               <Link to="/Gallery" style={{ textDecoration: 'none' }}>Gallery</Link>
              </li>
              <li>
                <Link to="/About" style={{ textDecoration: 'none' }}>About</Link>
-             </li>
-             <li>
-              <Link to="/Login" style={{textDecoration: 'none'}} className="text-red-600 text-black font-semibold">Login/Signup</Link>
              </li>
            </ol>
            </nav>
